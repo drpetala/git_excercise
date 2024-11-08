@@ -18,3 +18,9 @@ rename the branch to main
 ```{r}
 git_default_branch_configure(name = "main")
 ```
+
+```{r}
+d<-2
+e<-3
+plot(d,e)
+```
