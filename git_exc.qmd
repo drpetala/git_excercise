@@ -3,3 +3,18 @@ title: "git_exc"
 format: html
 editor: visual
 ---
+
+```{r}
+library(usethis)
+usethis::use_git()
+```
+
+```{r}
+use_github()
+```
+
+rename the branch to main
+
+```{r}
+git_default_branch_configure(name = "main")
+```
