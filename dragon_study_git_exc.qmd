@@ -1,0 +1,40 @@
+---
+title: "dragon_stud_git_exc"
+format: html
+editor: visual
+---
+
+```{r}
+library(usethis)
+use_git_config(
+  user.name = "drpetala", 
+  user.email = "gaute.eiterjord@gmail.com"
+  )
+
+```
+
+```{r}
+usethis::create_github_token()
+```
+
+```{r}
+gitcreds::gitcreds_set()
+```
+
+```{r}
+git_vaccinate()
+```
+
+```{r}
+x<-1
+y<-2
+plot(x,y)
+
+
+```
+
+```{r}
+a<-2
+b<-3
+plot(a,b)
+```
